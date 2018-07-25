@@ -1,0 +1,78 @@
+html, body, #map 
+{
+    width: 100%; 
+    height: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+#listPoints
+{
+    width: 430px;
+    height: 300px;
+    /*border: 3px solid gray;*/
+    float: left;
+    padding: 10px;
+}
+
+
+#map
+{
+    padding: 10px;
+    width: 800px;
+    height: 800px;
+    /*border: 3px solid gray;*/
+    float: left;
+}
+
+#programEditorMap
+{
+    position: relative;
+}
+
+#nameNewPointRoute {
+    border: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#butAddPoint {
+    padding: 10px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closePoint 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+ul li {
+    cursor: pointer;
+    position:relative;
+    padding:8px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
